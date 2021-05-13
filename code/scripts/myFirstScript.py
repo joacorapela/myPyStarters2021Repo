@@ -12,12 +12,12 @@ x = np.genfromtxt("../../data/x.csv")
 y = np.genfromtxt("../../data/y.csv")
 
 plot_1D_data(x, y)
-plt.show()
 plt.savefig("../../figures/3_exercise1_default_params.png")
+plt.show()
 
 plot_1D_data(x, y, xlabel="data", ylabel="predictions",
              title="Plot with custom parameters", line_color="blue",
              line_style="dashed")
-plt.show()
 plt.savefig("../../figures/3_exercise1_custom_params.png")
+plt.show()
 
